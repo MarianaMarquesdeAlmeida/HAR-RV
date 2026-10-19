@@ -1,0 +1,20 @@
+# Raw tick data stays local; derived daily datasets are included.
+/download/
+
+# Python and Jupyter caches and local environments.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local credentials and editor or operating-system files.
+.env
+.env.*
+!.env.example
+.aws/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
